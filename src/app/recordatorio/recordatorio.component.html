@@ -1,0 +1,40 @@
+<h3>Recordatorio - {{title}} </h3>
+<h3> {{day}} </h3>
+
+<mat-card appearance="outlined" class="card">
+    <mat-checkbox></mat-checkbox>
+    <mat-card-content>{{text}} - {{hour_day[0]}}</mat-card-content>
+    <mat-card-content>
+        {{places[0]}}
+    </mat-card-content>
+    <button mat-button>
+        <mat-icon>favorite</mat-icon>
+    </button>
+</mat-card>
+
+<mat-card appearance="outlined" class="card">
+    <mat-checkbox></mat-checkbox>
+    <mat-card-content>{{text}} - {{hour_day[0]}}</mat-card-content>
+    <mat-card-content>
+        {{places[0]}}
+    </mat-card-content>
+    <button mat-button>
+        <mat-icon>favorite</mat-icon>
+    </button>
+</mat-card>
+
+<mat-card appearance="outlined" class="card">
+    <mat-checkbox></mat-checkbox>
+    <mat-card-content>{{text}} - {{hour_day[0]}}</mat-card-content>
+    <mat-card-content>
+        {{places[0]}}
+    </mat-card-content>
+    <button mat-button>
+        <mat-icon>favorite</mat-icon>
+    </button>
+</mat-card>
+
+<button mat-button (click)="navegarAgregarRecordatorio()" >
+    Add
+</button>
+<router-outlet></router-outlet>
